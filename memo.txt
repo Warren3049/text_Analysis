@@ -1,0 +1,11 @@
+1.pip 업그레이드
+python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+2.주피터노트북 설치
+pip install jupyter --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+3.기본 패키지 설치
+pip install nltk textblob autocorrect eunjeon wordcloud matplotlib seaborn pillow squarify tika scikit-learn python-pptx gensim networkx afinn py_lex scipy pandas lxml xlrd bs4 requests urllib3 html5lib --trusted-host pypi.org --trusted-host files.pythonhosted.org
+
+4.konlpy 설치
+pip install konlpy jpype1 --trusted-host pypi.org --trusted-host files.pythonhosted.org
