@@ -5,4 +5,4 @@ python -m pip install --upgrade pip --trusted-host pypi.org --trusted-host files
 pip install jupyter --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
 3.패키지 설치
-pip install nltk kiwipiepy textblob autocorrect wordcloud matplotlib seaborn pillow squarify tika scikit-learn tqdm python-pptx gensim networkx afinn py_lex scipy pandas lxml xlrd bs4 requests urllib3 html5lib --trusted-host pypi.org --trusted-host files.pythonhosted.org
+pip install nltk kiwipiepy textblob autocorrect wordcloud matplotlib seaborn pillow squarify gensim==3.8.3 tika scikit-learn tqdm python-pptx networkx afinn py_lex scipy pandas lxml xlrd bs4 requests urllib3 html5lib --trusted-host pypi.org --trusted-host files.pythonhosted.org
